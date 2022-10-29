@@ -1,16 +1,3 @@
-/* ----
-
-# Pio Plugin
-# By: Dreamer-Paul
-# Modify: journey-ad
-# Last Update: 2021.5.10
-
-一个支持更换 Live2D 模型的 Typecho 插件。
-
-本代码为奇趣保罗原创，并遵守 GPL 2.0 开源协议。欢迎访问我的博客：https://paugram.com
-
----- */
-
 .pio-container {
     bottom: 0;
     z-index: 52;
@@ -136,7 +123,6 @@
     opacity: 1;
     visibility: visible;
 }
-
 .pio-container.left .pio-dialog {
     left: 1em
 }
@@ -146,6 +132,7 @@
 }
 
 #pio {
+    height: 240px;
     vertical-align: middle
 }
 
@@ -153,7 +140,6 @@
     #pio {
         width: 8em
     }
-
     .pio-container {
         pointer-events: none
     }
